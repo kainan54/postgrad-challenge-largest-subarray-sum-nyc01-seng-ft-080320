@@ -25,3 +25,9 @@ function yolo(arr) {
 };
 
 yolo([-2,1,-3,4,-1,2,1,-5,4])
+
+// Have not tested with learn yet(need to reinstall IDE) but was messing around using leetCode version/editor so it should work
+
+// time complexity should be o(n) as number of calculations grow in a linear relationship to n via the for loop.
+
+// space complexity should be o(1) as the amount of memory used is constant regardless of input size.
