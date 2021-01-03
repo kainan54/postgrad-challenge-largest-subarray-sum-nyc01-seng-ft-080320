@@ -1,7 +1,7 @@
-function yolo(arr) {
+function largestSubarraySum(arr) {
     
     // lol 0 is actually too high as a default max in a all negative arr so I started max as first el
-    let currentMax = 0, max = arr[0];
+    let currentMax = 0, max = 0;
     
     //loopity boopity, we could skip the 1st index but the loop would be less englishy
     for(let num of arr) {
@@ -24,7 +24,7 @@ function yolo(arr) {
     return max;
 };
 
-yolo([-2,1,-3,4,-1,2,1,-5,4])
+//yolo([-2,1,-3,4,-1,2,1,-5,4])
 
 // Have not tested with learn yet(need to reinstall IDE) but was messing around using leetCode version/editor so it should work
 
